@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	background: rgba(220, 220, 220, 0.3);
+}
+
+#contenedor {
+	width:1000px;
+	margin:auto;
+}
+header{
+	margin-bottom: 1%;
+}
+header h1{
+	text-align: center;
+	margin-top: 2%;
+}
+nav li {
+	float:left;
+	list-style:none;
+	margin:2% 2%;
+}
+nav li :hover {
+	background: #40739e;
+	color: white;
+}
+nav li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+
+}
+article {
+	clear:both;}
+article{
+	background: rgba(240, 240, 240, 0.3);
+}
+article h2{
+	text-align: center;
+}
+article p {
+	padding:0px 15px;
+
+}
+article b{
+	padding:0px 15px;
+}
+
+article li {
+	list-style: none;
+	text-decoration: none;
+	padding: 0px 15px;
+}	
+figure {
+	margin-top:5%;
+	float:left;
+	width:33.333333%;
+	margin-bottom:4%;
+}
+figcaption {
+	width:100%;
+	margin:5% 0%;
+	text-align: center;
+}
+aside * {
+	margin:5% 0%;
+	float:left;
+	width:16.666666%;
+}
+aside a {
+	text-align: center;
+}
+	
+footer {
+	background: rgba(210, 210, 210, 0.5);
+	clear:both;
+}
+footer h4 {
+	text-align: center;
+}
+footer p {
+	text-align: center;
+	padding: 0px 25px;
+	margin: 1% 1%;
+}
+
+
+@media (max-width:960px){
+	#contenedor{width:100%;
+		background: #49756F;
+	}
+	header img{
+		width:100%;
+		height:auto;
+	}
+
+}
+@media (max-width:620px){
+	#contenedor{width:100%;
+		background: #609C6C;
+	}
+
+	figure img{
+		width:95%;
+		height:auto;
+		margin-right:5%;}
+	
+}
+
+@media (max-width:420px){
+	#contenedor{background: #c8d6e5;}
+	figure{width:100%}
+	figure img{width:50%;
+	height:auto;
+	float:left;}
+	figcaption{
+		float:left;
+		width:30%;
+		margin:0% 5%;
+}
+
+}
+
+@media (max-width:320px){
+	aside img{
+		display:none;
+		}
+		aside a{width:100%;}
+
+
+}
+
